@@ -1,0 +1,59 @@
+# Этот файл .gitignore следует поместить в корень каталога вашего проекта Unity.
+#
+# Получить последнюю версию с https://github.com/github/gitignore/blob/master/Unity.gitignore
+#
+/[ Ll ] библиотека /
+/[ Тт ] эмп /
+/[ Оо ] Ъ /
+/[ Bb ] уилд /
+/[ Bb ] уилды /
+/[ Ll ] огс /
+/[ мм ] emoryCaptures /
+
+# Метаданные актива следует игнорировать только в том случае, если соответствующий актив также игнорируется
+! /[Aa]ssets/**/*.meta _ _ _ _ _ _ _ _
+
+# Раскомментируйте эту строку, если вы хотите игнорировать плагин инструментов хранилища активов
+# /[Aa]ssets/AssetStoreTools*
+
+# Автоматически сгенерированный плагин Jetbrains Rider
+[ Aa ] ssets / Плагины / Редактор / JetBrains *
+
+# Каталог кеша Visual Studio
+.vs /
+
+# Каталог кеша Gradle
+.градле /
+
+# Автоматически созданные файлы решений и проектов VS/MD/Consulo
+ЭкспортированныйОбъект /
+.консуло /
+* .csproj
+* .unityproj
+* .sln
+* .суо
+* .tmp
+* .пользователь
+* .userprefs
+* .pidb
+* .бупродж
+* .свд
+* .pdb
+* .mdb
+* .opendb
+* .VC.db
+
+# Сгенерированные Unity3D метафайлы
+* .pidb.meta
+* .pdb.meta
+* .mdb.meta
+
+# Сгенерированный Unity3D файл в отчетах о сбоях
+sysinfo.txt
+
+# Сборки
+* .апк
+* .unitypackage
+
+# Сгенерированный файл Crashlytics
+Crashlytics-build.properties
